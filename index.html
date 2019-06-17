@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Pizzeria</title>
+  <link rel="shortcut icon" href="images/pizzalogo.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body>
+
+
+  <div class="top col-md-12">
+    <nav class="navbar navbar-expand-sm navbar navbar-light">
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#jumbotron">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#price-content">Order</a>
+          </li>
+         
+        </ul>
+      </div>
+    </nav>
+
+    <div id="jumbotron" class="jumbotron col-md-6">
+      <h1>PIZZERIA</h1><br><br>
+      <p>A thousand flavors in one place!</p>
+    </div>
+  </div>
+
+  <br><br><br>
+
+
+<br><br>
+
+  <h2>Order here</h2>
+
+  <form class="form-group" id="custom-pizza">
+    <div class="order">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <h5 class="card-title">Pizza size</h5>
+            <img src="images/pizzasize.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Choose the size of Pizza</p>
+              <select required class="form-control" id="size">
+                <option>PLAIN</option>
+                <option value="small-pizza">small (550)</option>
+                <option value="medium-pizza">medium (750)</option>
+                <option value="large-pizza">large (950)</option>
+				<option value="large-pizza">Extra-large (1150)</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <h5 class="card-title">Crust</h5>
+            <img src="images/pizzasize.png" class="card-img-top" alt="...">
+            <div class="card-body">            
+              <select required class="form-control" id="crust">
+                <option>PLAIN</option>
+                <option value="cheese-filled">Cheese filled (100)</option>
+                <option value="thick">Thick (150)</option>
+                <option value="stuffed">Stuffed (150)</option>
+                <option value="crispy">Crispy (150)</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <h5 class="card-title">Toppings</h5>
+            <img src="images/pizzasize.png" class="card-img-top" alt="...">
+            <div class="card-body">
+            
+              <select required class="form-control" id="toppings">
+                <option>PLAIN</option>
+                <option value="pepperoni">Pepperoni (100)</option>
+                <option value="sausage">Sausage (150)</option>
+                <option value="bacon">Bacon (200)</option>
+                <option value="mushrooms">Mushrooms (150)</option>
+                <option value="chicken">Chicken (150)</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <h5 class="card-title">Toppings</h5>
+            <img src="images/pizzasize.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <select required class="form-control" id="toppings">
+                <option>PLAIN</option>
+                <option value="pepperoni">Pepperoni (100)</option>
+                <option value="sausage">Sausage (150)</option>
+                <option value="bacon">Bacon (200)</option>
+                <option value="mushrooms">Mushrooms (150)</option>
+                <option value="chicken">Chicken (150)</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br><br>
+
+    <button type="submit" class="order-button btn btn-dark" id="submit-pizza">Place Order</button><br>
+
+
+
+  </form>
+
+  
+  <div class="col-xs-4" id="price-content">
+    <h1 class="page-header"><strong>Cart</strong></h1>
+    <h2>Price: Ksh <span id="final-cost"></span></h2>
+
+    <br><br>
+
+    <div id="deliver" class="deliver">
+      <h5>Your delivery fee is Ksh.200?</h5>
+
+    <br>
+
+    <form id="address-form">
+      <div class="col-xs-6">
+        <label for="first-name"></label>
+        <input id="location" type="text" size="40" placeholder="Location.." required />
+        <button class="btn btn-dark complete" type="submit">Enter</button>
+        <h3><span id="delivery-option"></span></h3>
+      </div>
+    </form>
+    </div>
+
+    <br>
+    <button type="btn" class="btn btn-dark" id="checkout-btn">Purchase</button>
+    <br><br>
+
+  </div>
+
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
