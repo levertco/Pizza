@@ -22,7 +22,7 @@ Clone the repository to your machine from the online repository.
 
 ## Deployment
 
-Click [here](https://levertco.github.io/levertco/) to go to the live site.
+Click [here]https://levertco.github.io/Pizza/ to go to the live site.
 
 ## Built With
 
