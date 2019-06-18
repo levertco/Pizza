@@ -31,6 +31,13 @@ Click [here]https://levertco.github.io/Pizza/ to go to the live site.
 * JQUERY
 * JAVASCRIPT
 
+## BDD
+The program should... | Example Input | Example Output
+----- | ----- | -----
+Calculate the price of the ordered pizza based on the options selected in the form | Custom Pizza Form: Small, 550"; Sauce; Cheese;  | Ksh 550
+Display the total price of the pizza in the Cart column, and then simultaneously refresh the form | Custom Pizza Form: Size-
+A link with the item name will appear when an item is added to the Cart | Cart: --, on Sides | Cart: Sides, clicked on reveals "1 jumbo"
+
 ## Contribution
 
 Contriuted by Levert Ouma.
