@@ -2,6 +2,7 @@
 
 ### Author: Levert Ouma
 
+## Description
 This is a web application that enables customers to order different sizes of pizzas with one or more toppings. 
 
 ## Getting Started
